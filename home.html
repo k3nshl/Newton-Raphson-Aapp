@@ -1,0 +1,151 @@
+<!-- ======= Main Section ======= -->
+<section id="main-section" class="why-us section-bg">
+    <div class="container-fluid" data-aos="fade-up">
+
+      <div class="row">
+
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1"
+          data-aos="fade-right" data-aos-delay="150">
+
+          <div class="content">
+            <h3>Método de Newton-Raphson </h3>
+            <p>
+              Esta calculadora en línea implementa el método de Newton (también conocido como el método de
+              Newton-Raphson) para encontrar las raíces (o ceros) de una función de valor real.
+            </p>
+            <h4>Función</h4>
+            <input type="text" class="form-control"
+              placeholder="Ingrese la función a evaluar. Por ejemplo, si desea encontrar la raíz de la función f(x) = x^2 - 4, ingrese x^2 - 4.">
+            <div class="content-function my-3">
+              <div class="initial-value">
+                <h4>Valor inicial</h4>
+                <input type="text" class="form-control" placeholder="Ingrese el valor inicial de x0">
+              </div>
+              <div class="admited-error">
+                <h4>Error admitido</h4>
+                <input type="text" class="form-control" placeholder="Ingrese el error admitido ej: 0.0005">
+              </div>
+            </div>
+            <button class="btn btn-lg btn-primary float-end my-3"
+              title="Pulse para calcular la función">Calcular</button>
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-left" data-aos-delay="150">
+          <div class="content">
+            <h3>Gráfica</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="150">
+          <div class="content">
+            <h4>Resultado</h4>
+            <div class="result">
+              <div class="sol-x">
+                <label for="x">x</label>
+                <input type="text" class="form-control" disabled placeholder="x = 2">
+              </div>
+              <div class="sol-function">
+                <label for="funcion">
+                  Función
+                </label>
+                <input type="text" class="form-control" disabled placeholder="f(x) = x^2 - 4">
+              </div>
+              <div class="sol-derivada">
+                <label for="derivada">
+                  Derivada
+                </label>
+                <input type="text" class="form-control" disabled placeholder="f'(x) = x^2 - 4">
+              </div>
+
+            </div>
+            <div class="container-table-result my-5">
+              <table id="nr-table" class="table display" style="width:100%">
+                <thead class="nr-thead">
+                  <tr>
+                    <th>Iteracion</th>
+                    <th>x</th>
+                    <th>f(x)</th>
+                    <th>f'(x)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>0</td>
+                    <td>x1</td>
+                    <td>f(x)</td>
+                    <td>f'(x)</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>x2</td>
+                    <td>f(x)</td>
+                    <td>f'(x)</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>x3</td>
+                    <td>f(x)</td>
+                    <td>f'(x)</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Main Section -->
+
+  <!-- ======= Team Section ======= -->
+  <section id="team" class="team section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Team</h2>
+        <p>Miembros de desarollo del proyecto de la calculadora del metodo de Newton-Raphson</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/kendall.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Kendall Fernández</h4>
+              <span>Full-stack developer</span>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/deymer.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Deymer Jimenez</h4>
+              <span>Frontend developer</span>
+              <div class="social">
+                <a href=""><i class="ri-twitter-fill"></i></a>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Team Section -->
